@@ -1,0 +1,482 @@
+
+:root {
+    --primary-color:#618264;
+    --coulor-secondaire:#79AC78;
+
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow-x: hidden;
+}
+body {
+    
+    
+} 
+.entete {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+.logcanal2 {
+    background-image: url(mes_items/images/téléchargement__1_-removebg-preview\ 1.png);
+    width: 150px;
+    height:60px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sessionbouton {
+    width: 60%;
+    height: 100px;
+    margin-left: 150px;
+  
+}
+.sessionbouton> ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 22px;
+}
+.but {
+    width: 20%;
+    height:100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.but> button {
+    background-color: var(--primary-color);
+    color: #fdfdfd;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.enfant-1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 800px;
+    margin-top: 20px;
+}
+.E1cont1 {
+    display: flex;
+    background-color:  rgb(255, 255, 255);
+    width: 55%;
+    height: 100%;
+    align-items: center;
+    margin-left: 40px;
+}
+.E1ct1elmt1 {
+    background-image: linear-gradient(to top , #000000, #00000000), url(mes_items/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-combat-par-decision-unanime\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 93%;
+    height: 96.6%;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+}
+.franc {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+.bar1{
+    margin-left: 20px;
+    width: 30px;
+    height: 80%;
+    background-color: var(--primary-color);
+}
+.txt {
+    display: flex;
+    flex-direction: column;
+}
+.francis >h1{
+    color:white ;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.date >h3{
+    color:white ;
+    font-size: 30px;
+    margin-left: 10px;
+    
+}
+.E1cont2 {
+    background-color:  rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.titre2 {
+    width: 50%;
+    height: 150px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row; 
+}
+.bar{
+    width: 20px;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+.text {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.elmt1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    width: 86vh;
+    height: 80%;
+    padding-left: 20px;
+}
+.E1 {
+    background-color: rgb(255, 255, 255);
+    background-image: url(mes_items/images/annie-spratt-cVEOh_JJmEE-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 90%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.E2 {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(255, 255, 255);
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    justify-content: space-between; 
+}
+.T1 {
+    margin-top: 12px;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.T1> h1 {
+    font-size: 35px;
+}
+.description1 {
+    width: 90%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.description1>h3 {
+    font-size: 25px;
+}
+.enfant-2 {
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 93vw;
+    height: 800px; 
+    margin-left: 40px; 
+    margin-right: 70px;
+
+}
+
+.enf1E1 {
+   
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.fille1 {
+    background-image:  url(mes_items/images/jackson-david-BL_Q4zjduGU-unsplash\ 1.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height: 100%;
+    margin-top: 15px ;
+    border-radius: 10px;
+}
+.fille1-1 {
+    width: 400px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius:5px;
+}
+.fille1-1 >h3 {
+     margin-top: 10px;
+}
+.fille1-2 {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius:5px;   
+}
+.fille1-2 > h1 {
+    margin-top: 10px;
+}
+.enfant-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 800px;  
+    background-color: rgb(255, 255, 255);
+    padding-top:30px;
+}
+.garcon1 {
+    width: 80%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.garcon1 > h1 {
+    font-size: 60px;
+    margin-left: 10px;
+}
+.garcon2 {
+    background-image: url( mes_items/images/Rectangle\ 34.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+    width: 65%;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.enfant-4 {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 550px;  
+    background-color: rgb(255, 255, 255);
+    padding-top:30px;
+}
+.garcon4-1 {
+    background-image: url(mes_items/images/Rectangle\ 22.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+    height: 95%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 35px;
+    border-radius: 10px;
+}
+.garcon1 {
+    width: 80%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.garcon1 > h1 {
+    font-size: 60px;
+    margin-left: 10px;
+}
+.garcon4-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 55%;
+    height:95%;
+    background-color: rgb(255, 255, 255);
+    margin-right: 40px;
+    
+}
+.sessionbouton>ul>li>a { 
+  text-decoration: none;
+}
+.sessionbouton>ul>li {
+    list-style-type: none;
+}
+.garcon42-1 {
+    padding-top: 20px;
+    width: 90%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+.garcon42-2 {
+    padding-top: 20px;
+    width: 90%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+.garcon42-3 {
+    padding-top: 20px;
+    width: 90%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+.garcon42-1 > h1 {
+    font-size: 60px;
+    margin-left: 10px;
+}
+.garcon42-2 > h2 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+.garcon42-3> h3 {
+    font-size: 28px;
+    margin-left: 10px;
+
+}
+.enfant-5 {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 550px;  
+    background-color: rgb(255, 255, 255);
+    padding-top:30px;
+}
+.garcon5-1 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 55%;
+    height:95%;
+    background-color: rgb(255, 255, 255);
+    margin-right: 40px;
+    
+}
+.garcon51-1 {
+    padding-top: 20px;
+    width: 90%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+.garcon51-2 {
+    padding-top: 20px;
+    width: 90%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+.garcon51-3 {
+    padding-top: 20px;
+    width: 90%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+.garcon51-1 > h1 {
+    font-size: 60px;
+    margin-left: 10px;
+}
+.garcon51-2 > h2 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+.garcon51-3 > h3 {
+    font-size: 28px;
+    margin-left: 10px;
+}
+.garcon5-2 {
+    background-image: url( mes_items/images/Rectangle\ 23.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 55%;
+    height: 95%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-right: 90px;
+}
+.enfant-6 {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 750px; 
+    background-color: rgb(255, 255, 255);
+}
+.enfant-6-1{
+    background-image: url(mes_items/images/Rectangle\ 28.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 90%;
+    background-color: blue;
+}
+.actu {
+    height: 40px;
+}
+
+.actu > a{
+    color: var(--coulor-secondaire);
+    border-bottom: 4px  solid;
+    
+}
+.fin {
+    display: flex;
+    width: 100vw;
+    height: 500px; 
+    background-color: white;
+    align-items: end;
+}
+.fin1 {
+    
+    height: 75%;
+    width: 100vw;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slogan{ 
+     width: 100vw;
+     height: 100px ;
+     display: flex;
+     justify-content: center;
+     padding-top: 30px;
+}
+.slogan> h1{
+    color: white;
+    font-size: 60px;
+}
+.logo {
+    width: 60%;
+    height: 100px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+
+
+
